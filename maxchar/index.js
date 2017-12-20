@@ -15,7 +15,7 @@ function maxChar(str) {
       }else {
         arr[str[i]] =1
       }
-  }
+  } 
 
   for(let val in arr){
     if(arr[val] > max){
